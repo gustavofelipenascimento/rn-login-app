@@ -9,8 +9,7 @@ function AppNavigator() {
         <NavigationContainer>
             <Stack.Navigator>
                 <Stack.Screen name='Login' component={LoginScreen} options={{title: 'Login'}}/>
-                {/* <Stack.Screen name='Home' component={HomeScreen} options={{title: 'Home'}}/> */}
-                
+                <Stack.Screen name='Home' component={HomeScreen} options={{title: 'Home'}}/>
         </Stack.Navigator>
         </NavigationContainer>
     )

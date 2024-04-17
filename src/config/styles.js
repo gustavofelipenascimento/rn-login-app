@@ -15,5 +15,8 @@ export const styles = StyleSheet.create({
         fontWeight:'bold',
         marginBottom:20,
         color:'black'
+     },
+     input:{
+        marginBottom:10,
      }
 })

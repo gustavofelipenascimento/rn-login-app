@@ -6,7 +6,7 @@ import RegisterScreen from "../screens/RegisterScreen";
 
 const Stack = createNativeStackNavigator();
 
-function AppNavigator() {
+export default function AppNavigator() {
     return (
         <NavigationContainer>
             <Stack.Navigator>
@@ -33,4 +33,3 @@ function AppNavigator() {
     )
 }
 
-export default AppNavigator;

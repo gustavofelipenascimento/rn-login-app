@@ -8,8 +8,7 @@ export default function HomeScreen() {
             <Text>You're Welcome to the our app</Text>
             <Button
                 onPress={() =>{
-                    navigation.navigate('Login')}}
-            >
+                    navigation.navigate('LoginScreen')}}>
                 Login
             </Button>
         </View>

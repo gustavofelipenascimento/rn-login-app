@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ScrollView, View } from "react-native";
-import { Button, Text, TextInput } from "react-native-paper";
+import { Button, Surface, Text, TextInput } from "react-native-paper";
 import { styles } from "../config/styles"
 
 export default function RegisterScreen({ navigation }) {
@@ -65,7 +65,7 @@ export default function RegisterScreen({ navigation }) {
 
     return (
         <ScrollView>
-        <View style={styles.container}>
+        <Surface style={styles.container}>
             <Text style={styles.title}>Sign Up</Text>
             <View style={styles.innerContainer}>
                 <TextInput
@@ -158,7 +158,7 @@ export default function RegisterScreen({ navigation }) {
                     Back To Sign In
                 </Button>
             </View>
-        </View>
+        </Surface>
         </ScrollView>
     )
 }

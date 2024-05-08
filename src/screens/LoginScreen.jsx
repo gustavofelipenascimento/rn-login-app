@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { View } from "react-native";
-import { Button, Text, TextInput } from "react-native-paper";
+import { Button, Surface, Text, TextInput } from "react-native-paper";
 import { styles } from "../config/styles"
 
 export default function LoginScreen({ navigation }) {
@@ -16,10 +16,18 @@ export default function LoginScreen({ navigation }) {
             setErr("Please, insert your email and password")
         }
     }
+    // // function mkLogin(){
+    //     console.log("Do your sign up")
+    //     if (email===""){
+    //         setErro({ ...err, email: true})
+    //     }else{
+    //         setErro({ ...err, email: false})
+    //     }
+    // }
 
 
     return (
-        <View style={styles.container}>
+        <Surface style={styles.container}>
             <View style={styles.innerContainer}>
                 <Text style={styles.title}>
                     Do your Sign In
@@ -51,6 +59,6 @@ export default function LoginScreen({ navigation }) {
                 </Button>
                 <Text style={styles.error}>{err}</Text>
             </View>
-        </View>
+        </Surface>
     )
 }

@@ -14,7 +14,7 @@ export const styles = StyleSheet.create({
         fontSize:24,
         fontWeight:'bold',
         marginBottom:20,
-        color:'black'
+        textAlign:'center',
      },
      input:{
         marginBottom:10,
